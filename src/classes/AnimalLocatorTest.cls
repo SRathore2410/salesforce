@@ -38,6 +38,8 @@ private class AnimalLocatorTest {
         // Verify status code
         System.assertEquals('bear',result,
           'Result should be bear');
-        Syste.debug(a);  
+	    System.assertEquals(1,2,
+          'On purpose');
+	
     }
 }
